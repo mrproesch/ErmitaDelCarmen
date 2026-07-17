@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Scrollbar styles matching the warm/dark stone & amber aesthetic */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: #1c1917; /* stone-900 */
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #78350f; /* amber-900 */
+  border-radius: 9999px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #b45309; /* amber-700 */
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #78350f #1c1917;
+}
